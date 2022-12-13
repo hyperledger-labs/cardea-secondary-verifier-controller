@@ -61,7 +61,7 @@
   "participants": [
     {
       "name": "Government of <your country here>",
-      "id": "F3qZ8YSpgXLdLqcEC6GSFi",
+      "id": "X6Jqaw6HG3JBHfFnaqMKzB",
       "describe": {
         "label": "<your country here>",
         "sublabel": "Government of <your country here>",
@@ -71,7 +71,7 @@
     },
     {
       "name": "General Obeorthot Hospital of <your country here>",
-      "id": "FE9ge78jQSzYU4YrKuKzUG",
+      "id": "ARz67YCwRnjBFxT8XkCxh",
       "describe": {
         "label": "Obeorthot Hospital",
         "sublabel": "General Obeorthot Hospital of <your country here>",
@@ -104,7 +104,7 @@
       "when": {
         "any": [
           {"id": "did:example:hospital"},
-          {"id": "FE9ge78jQSzYU4YrKuKzUG"}
+          {"id": "ARz67YCwRnjBFxT8XkCxh"}
         ]
       }
     },
@@ -112,7 +112,7 @@
       "grant": ["travel_issuer"],
       "when": {
         "any": [
-          {"id": "F3qZ8YSpgXLdLqcEC6GSFi"}
+          {"id": "X6Jqaw6HG3JBHfFnaqMKzB"}
         ]
       }
     },
@@ -120,7 +120,7 @@
       "grant": ["health_verifier"],
       "when": {
         "any": [
-          {"id": "F3qZ8YSpgXLdLqcEC6GSFi"}
+          {"id": "X6Jqaw6HG3JBHfFnaqMKzB"}
         ]
       }
     },
@@ -128,7 +128,7 @@
       "grant": ["travel_verifier"],
       "when": {
         "any": [
-          {"id": "F3qZ8YSpgXLdLqcEC6GSFi"}
+          {"id": "X6Jqaw6HG3JBHfFnaqMKzB"}
         ]
       }
     },
