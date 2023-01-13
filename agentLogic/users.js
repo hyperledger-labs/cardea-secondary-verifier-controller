@@ -154,7 +154,7 @@ const createUser = async function (email, roles) {
     await NodeMailer.sendMail({
       from: currentSMTP.dataValues.value.auth.email,
       to: user.email,
-      subject: 'Aries enterprise app account registration',
+      subject: 'Secondary Verifier Enterprise Agent Account Registration',
       html: `<p>Hello dear user,<br> we have created an account for you.<br><br> Please follow this <a href="${link}">link</a> to finish registration. Your link will expire in 24 hours.<br><br> Best wishes,<br> Aries Enterprise SPA</p>`,
     })
 
